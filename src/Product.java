@@ -11,10 +11,22 @@ public class Product {
        // this.reorderThreshold = reorderThreshold;
     }
 
-  /*  public int getId() { return id; }
+    public int getId() { return id; }
     public String getName() { return name; }
     public synchronized int getQuantity() { return quantity; }
     public int getReorderThreshold() { return reorderThreshold; }
+    public int getId() {
+         return id;
+          }
+    public String getName() { 
+        return name;
+         }
+    public synchronized int getQuantity() { 
+        return quantity; 
+        }
+    public int getReorderThreshold() {
+         return reorderThreshold;
+          }
 
     public synchronized void increaseQuantity(int amount) {
         if (amount < 0) throw new IllegalArgumentException("Amount must be non-negative");
@@ -31,5 +43,5 @@ public class Product {
     public String toString() {
         return String.format("Product[id=%d, name=%s, qty=%d, threshold=%d]",
                 id, name, quantity, reorderThreshold);
-    }*/
+    }
 }
